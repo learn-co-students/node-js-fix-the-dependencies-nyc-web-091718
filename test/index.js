@@ -23,8 +23,9 @@ describe('lib', () => {
 
   //PASSES EACH TEST INDIVIDUAL BUT NOT TOGETHER
   //ISSUE RELIES IN CHAI-SPIES VERSION I BELIEVE
+  //Error: "log" is already a spy
   // it('logs some calls to five()', () => {
-  //   const spy = chai.spy.on(console, 'warn');
+  //   const spy = chai.spy.on(console, 'log');
   //
   //   lib('foo', spy);
   //
